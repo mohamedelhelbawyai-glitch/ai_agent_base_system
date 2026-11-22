@@ -1,0 +1,25 @@
+{
+  "_instructions": "Catalog of all features. One object per feature in 'features'. 'id' must be unique and stable (never reuse). 'dependencies' lists the ids of other features this one needs. 'status' is one of: planned, in_progress, done, blocked, deprecated. 'contextFilePath' points to the feature's context markdown file (see feature_context_template.md). Delete this field and the example entries when you create a real catalog.",
+  "version": "1.0.0",
+  "updatedAt": "YYYY-MM-DD",
+  "features": [
+    {
+      "id": "FEAT-001",
+      "name": "[Feature name]",
+      "shortDescription": "[One or two sentences on what the feature does for the user]",
+      "dependencies": [],
+      "notes": "[Anything worth knowing: risks, decisions, links]",
+      "status": "planned",
+      "contextFilePath": "features/[feature-name]/feature_context.md"
+    },
+    {
+      "id": "FEAT-002",
+      "name": "[Another feature name]",
+      "shortDescription": "[Short description]",
+      "dependencies": ["FEAT-001"],
+      "notes": "",
+      "status": "planned",
+      "contextFilePath": "features/[another-feature]/feature_context.md"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "_instructions": "Catalog of all API endpoints. One object per endpoint in 'apis'. 'id' must be unique and stable (never reuse). 'usedIn' lists feature names exactly as written in the feature catalog. 'dependencies' lists the ids of other endpoints that must be called first. 'backendHandoffFilePath' points to the backend handoff markdown file (see feature_based_api_handoff_template.md); use null if none exists yet. Delete this field and the example entries when you create a real catalog.",
+  "version": "1.0.0",
+  "updatedAt": "YYYY-MM-DD",
+  "apis": [
+    {
+      "id": "API-001",
+      "endpointName": "[List resources]",
+      "goal": "[What this endpoint achieves for the client]",
+      "usedIn": ["[Feature name]"],
+      "dependencies": [],
+      "backendHandoffFilePath": "features/[feature-name]/api_handoff.md"
+    },
+    {
+      "id": "API-002",
+      "endpointName": "[Create resource]",
+      "goal": "[Goal]",
+      "usedIn": ["[Feature name]", "[Another feature name]"],
+      "dependencies": ["API-001"],
+      "backendHandoffFilePath": null
+    }
+  ]
+}
