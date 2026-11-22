@@ -1,0 +1,26 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/Users/helbawy/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-11-21T15:42:08.426Z"
+  },
+  "dart-flutter": {
+    "source": {
+      "source": "github",
+      "repo": "flutter/agent-plugins"
+    },
+    "installLocation": "/Users/helbawy/.claude/plugins/marketplaces/dart-flutter",
+    "lastUpdated": "2026-08-30T04:14:05.684Z"
+  },
+  "impeccable": {
+    "source": {
+      "source": "github",
+      "repo": "pbakaus/impeccable"
+    },
+    "installLocation": "/Users/helbawy/.claude/plugins/marketplaces/impeccable",
+    "lastUpdated": "2026-08-30T04:28:52.962Z"
+  }
+}

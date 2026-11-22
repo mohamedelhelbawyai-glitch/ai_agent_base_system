@@ -1,0 +1,37 @@
+{
+  "lastUpdated": 1795183852141,
+  "plugins": [
+    {
+      "pluginId": "plugin_011v5h6QUzBZvas64y44XLhy",
+      "name": "pdf-viewer",
+      "description": "View, annotate, and sign PDFs in a live interactive viewer. Mark up contracts, fill forms with visual feedback, stamp approvals, and place signatures — then download the annotated copy.",
+      "version": "0039",
+      "updatedAt": "2026-11-19T20:07:01.184009Z",
+      "marketplaceName": "knowledge-work-plugins",
+      "installationPreference": "available",
+      "marketplaceKind": "anthropic_catalog",
+      "generation": 2
+    },
+    {
+      "pluginId": "plugin_01VUWKAs3gYLNqeKbDtxv1Xs",
+      "name": "figma",
+      "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
+      "version": "0059",
+      "updatedAt": "2026-11-18T19:14:19.013893Z",
+      "marketplaceName": "knowledge-work-plugins",
+      "installationPreference": "available",
+      "marketplaceKind": "anthropic_catalog"
+    },
+    {
+      "pluginId": "plugin_01LFhefzHyLd2gnEZfUr2Nwe",
+      "name": "canva",
+      "description": "Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server.",
+      "version": "0019",
+      "updatedAt": "2026-10-16T02:20:39.839444Z",
+      "marketplaceName": "knowledge-work-plugins",
+      "installationPreference": "available",
+      "marketplaceKind": "anthropic_catalog",
+      "generation": 2
+    }
+  ]
+}

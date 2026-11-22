@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "plugins": {
+    "dart-flutter@dart-flutter": [
+      {
+        "scope": "user",
+        "installPath": "/Users/helbawy/.claude/plugins/cache/dart-flutter/dart-flutter/1.0.2",
+        "version": "1.0.2",
+        "installedAt": "2026-08-30T04:14:21.836Z",
+        "lastUpdated": "2026-08-30T04:14:21.836Z",
+        "gitCommitSha": "864cf8797b190ddb81e4875db6dd6bab89641f62"
+      }
+    ],
+    "impeccable@impeccable": [
+      {
+        "scope": "user",
+        "installPath": "/Users/helbawy/.claude/plugins/cache/impeccable/impeccable/4.1.2",
+        "version": "4.1.2",
+        "installedAt": "2026-08-30T04:30:29.756Z",
+        "lastUpdated": "2026-08-30T04:30:29.756Z",
+        "gitCommitSha": "b0594c72d18006b5865c70eb3a97e8b04064e600"
+      }
+    ]
+  }
+}
